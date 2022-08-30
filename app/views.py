@@ -20,6 +20,7 @@ def func(request):
         print(dol,"---------------------")
 
 
+
         
         # if Buyer.objects.filter(name__exact = dol['name'])
         serializer = product_serializer(data = request.data)
